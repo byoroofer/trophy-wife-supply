@@ -1,0 +1,80 @@
+{
+  "homepage": {
+    "title": "Trophy Wife Supply | Custom Hats, Boutique Apparel, and Accessories",
+    "description": "Discover Trophy Wife Supply for premium custom hats, feminine statement pieces, boutique apparel, and accessories designed to convert first-time visitors into loyal shoppers.",
+    "primaryH1": "Luxury-flirty boutique style with statement hats and elevated accessories",
+    "schemaTypes": [
+      "Organization",
+      "WebSite",
+      "CollectionPage"
+    ],
+    "requiredModules": [
+      "new arrivals",
+      "best sellers",
+      "launch collection",
+      "giftable edit",
+      "editorial entry points"
+    ]
+  },
+  "collection": {
+    "titleTemplate": "{collectionName} | Trophy Wife Supply",
+    "descriptionTemplate": "Shop {collectionName} at Trophy Wife Supply for premium boutique style, strong merchandising, and feminine statement pieces designed for gifting and repeat wear.",
+    "primaryH1Template": "{collectionName}",
+    "schemaTypes": [
+      "CollectionPage",
+      "BreadcrumbList",
+      "ItemList"
+    ],
+    "bodyCopyRules": [
+      "Lead with primary keyword in the first sentence",
+      "Include occasion-based phrases naturally",
+      "Link to adjacent collections and best sellers",
+      "Keep copy scannable on mobile"
+    ]
+  },
+  "product": {
+    "titleTemplate": "{productName} | Trophy Wife Supply",
+    "descriptionTemplate": "Shop the {productName} from Trophy Wife Supply. Premium boutique quality, gift-ready styling, and luxury-flirty details built for standout outfits.",
+    "primaryH1Template": "{productName}",
+    "schemaTypes": [
+      "Product",
+      "Offer",
+      "BreadcrumbList"
+    ],
+    "bodyCopyRules": [
+      "Open with a value-led product summary",
+      "Describe styling use cases before specs",
+      "Include fit, material, and gifting cues",
+      "Support related product links below the fold"
+    ]
+  },
+  "editorial": {
+    "titleTemplate": "{topic} | Trophy Wife Supply Journal",
+    "descriptionTemplate": "Read Trophy Wife Supply's guide to {topic} with boutique outfit ideas, gifting direction, and internal links to shop the matching collection.",
+    "primaryH1Template": "{topic}",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList"
+    ],
+    "bodyCopyRules": [
+      "Answer the search intent in the introduction",
+      "Add commerce links above the fold",
+      "Close with shoppable recommendations",
+      "Target one primary keyword and two supporting variants"
+    ]
+  },
+  "utilityPages": {
+    "about": {
+      "title": "About Trophy Wife Supply | Boutique Brand Story",
+      "description": "Learn more about Trophy Wife Supply, a premium boutique brand built around statement hats, feminine style, and scalable ecommerce merchandising."
+    },
+    "contact": {
+      "title": "Contact Trophy Wife Supply | Customer Support",
+      "description": "Contact Trophy Wife Supply for order help, product questions, wholesale inquiries, and boutique customer support."
+    },
+    "faq": {
+      "title": "FAQ | Trophy Wife Supply",
+      "description": "Find answers about shipping, returns, sizing, order timing, and boutique product details at Trophy Wife Supply."
+    }
+  }
+}

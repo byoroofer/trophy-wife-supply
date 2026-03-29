@@ -1,0 +1,100 @@
+{
+  "brand": {
+    "name": "Trophy Wife Supply",
+    "category": "Boutique ecommerce brand",
+    "voice": [
+      "luxury",
+      "feminine",
+      "bold",
+      "premium"
+    ],
+    "launchFocus": [
+      "custom hats",
+      "trucker hats",
+      "embroidered hats",
+      "statement hats"
+    ],
+    "expansionFocus": [
+      "apparel",
+      "accessories",
+      "full boutique catalog"
+    ]
+  },
+  "seoDefaults": {
+    "titleTemplate": "%s | Trophy Wife Supply",
+    "defaultTitle": "Trophy Wife Supply | Custom Hats, Boutique Apparel, and Accessories",
+    "defaultDescription": "Shop Trophy Wife Supply for premium custom hats, boutique apparel, and statement accessories with a luxury-flirty point of view.",
+    "metaRobots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+    "canonicalSource": "shopify.primary_domain",
+    "ogImageStrategy": "site-default-og-image-with-seasonal-overrides",
+    "socialCardType": "summary_large_image",
+    "language": "en-US"
+  },
+  "schema": {
+    "sitewide": [
+      "Organization",
+      "WebSite"
+    ],
+    "homepage": [
+      "Organization",
+      "WebSite",
+      "CollectionPage"
+    ],
+    "collection": [
+      "CollectionPage",
+      "BreadcrumbList",
+      "ItemList"
+    ],
+    "product": [
+      "Product",
+      "Offer",
+      "BreadcrumbList"
+    ],
+    "editorial": [
+      "BlogPosting",
+      "BreadcrumbList"
+    ]
+  },
+  "indexationRules": {
+    "indexable": [
+      "homepage",
+      "collections",
+      "products",
+      "editorial guides",
+      "about",
+      "contact",
+      "shipping",
+      "returns",
+      "faq"
+    ],
+    "noindex": [
+      "cart",
+      "checkout",
+      "account",
+      "search results",
+      "policy parameter variants",
+      "filter combinations driven by color or size only",
+      "duplicate sort views"
+    ]
+  },
+  "internalLinking": {
+    "homepageTargets": [
+      "launch collection",
+      "seasonal collection",
+      "best sellers",
+      "new arrivals",
+      "editorial hub"
+    ],
+    "collectionTargets": [
+      "featured products",
+      "adjacent collections",
+      "fit and gifting guides"
+    ],
+    "productTargets": [
+      "parent collection",
+      "complementary products",
+      "care guide",
+      "shipping and returns"
+    ]
+  }
+}

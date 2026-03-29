@@ -1,0 +1,113 @@
+{
+  "urlStrategy": {
+    "collectionsRoot": "/collections",
+    "productsRoot": "/products",
+    "editorialRoot": "/blogs/journal",
+    "pageRoot": "/pages"
+  },
+  "merchandisingCollections": [
+    {
+      "handle": "new-arrivals",
+      "label": "New Arrivals",
+      "indexable": true
+    },
+    {
+      "handle": "best-sellers",
+      "label": "Best Sellers",
+      "indexable": true
+    },
+    {
+      "handle": "gift-shop",
+      "label": "Gift Shop",
+      "indexable": true
+    },
+    {
+      "handle": "limited-drop",
+      "label": "Limited Drop",
+      "indexable": true
+    }
+  ],
+  "catalogCollections": [
+    {
+      "handle": "hats",
+      "label": "Hats",
+      "launchPriority": true,
+      "children": [
+        "trucker-hats",
+        "embroidered-hats",
+        "statement-hats",
+        "bridal-hats",
+        "western-hats"
+      ]
+    },
+    {
+      "handle": "apparel",
+      "label": "Apparel",
+      "launchPriority": false,
+      "children": [
+        "graphic-tops",
+        "sweatshirts",
+        "matching-sets",
+        "dresses",
+        "outerwear"
+      ]
+    },
+    {
+      "handle": "accessories",
+      "label": "Accessories",
+      "launchPriority": false,
+      "children": [
+        "totes",
+        "jewelry",
+        "drinkware",
+        "hair-accessories",
+        "small-gifts"
+      ]
+    }
+  ],
+  "facetStrategy": {
+    "indexableFacets": [
+      "product-type",
+      "occasion",
+      "style",
+      "gift-intent"
+    ],
+    "nonIndexableFacets": [
+      "size",
+      "inventory",
+      "price",
+      "discount",
+      "color-only",
+      "sort-order"
+    ]
+  },
+  "contentClusters": [
+    {
+      "cluster": "statement hats",
+      "targetCollection": "/collections/statement-hats",
+      "supportingTopics": [
+        "how to style statement hats",
+        "best statement hats for concerts",
+        "giftable boutique hats"
+      ]
+    },
+    {
+      "cluster": "trucker hats",
+      "targetCollection": "/collections/trucker-hats",
+      "supportingTopics": [
+        "boutique trucker hats for women",
+        "embroidered trucker hat outfit ideas",
+        "weekend outfit formulas with hats"
+      ]
+    },
+    {
+      "cluster": "bridal and event hats",
+      "targetCollection": "/collections/bridal-hats",
+      "supportingTopics": [
+        "bachelorette trip hat ideas",
+        "bride hat styling guide",
+        "western bridal boutique accessories"
+      ]
+    }
+  ]
+}
